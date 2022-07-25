@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <header class="p-3 bg-secondary text-white d-flex justify-content-between align-items-center">
+        <h4 class="mb-0">LAURA TODA</h4>
+        <div class="btn-group">
+            <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" varia-expanded="false" data-bs-auto-close="true" >
+            MENU
+            </button>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item rounded" href="#simple-list-item-1">PORTFOLIO</a></li>
+              <li><a class="dropdown-item rounded" href="#simple-list-item-2">SOBRE MI</a></li>
+              <li><a class="dropdown-item rounded" href="#simple-list-item-3">CONTACTO</a></li>
+            </ul>
+          </div>
+          <nav class="navbar">
+            <div class="container-fluid">
+              <a class="nav-link fw-bold text-white p-2" href="#simple-list-item-1">PORTFOLIO</a>
+              <a class="nav-link fw-bold text-white p-2" href="#simple-list-item-2">SOBRE MI</a>
+              <a class="nav-link fw-bold text-white p-2" href="#simple-list-item-3">CONTACTO</a>
+            </div>
+          </nav>
+    </header>
+
+   <main>
+    <section class="primera p-3 bg-secondary text-white bg-opacity-50 d-flex flex-column justify-content-center align-items-center">
+        <img src="./img/avataaars.svg" class="rounded-circle" alt="mi foto">
+        <h2 class="text-center fs-1 fw-bold pt-5">LAURA TODA</h2>
+        <div class="star">
+            <hr class="m-3" width="100px" size="10px" color="white"/>
+            <i class="fa-solid fa-star fs-4"></i>
+            <hr class="m-3" width="100px" size="10px" color="white"/>
+        </div>
+        <p class="m-4 text-center">Maquetadora web - Entusiasta - Autodidacta</p>
+    </section>
+
+    <section class="portfolio">
+        <h2 class="text-center fs-1 fw-bold pt-5" id="simple-list-item-1">PORTFOLIO</h2>
+        <div class="star">
+            <hr class="m-3" width="100px" size="10px" color="black"/>
+            <i class="fa-solid fa-star fs-4 text-secondary"></i>
+            <hr class="m-3" width="100px" size="10px" color="black"/>
+        </div>
+        <div class="conttrabajos">
+          <div class="trabajos">
+            <img src="./img/lemon-pie.jpeg" alt="lemmon pie" class=" img-fluid" data-bs-toggle="modal" data-bs-target="#exampleModal">
+            <p class="text-center fs-4 fw-bold" >LEMMON PIE</p>
+        </div>  
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content d-flex flex-column justify-content-center align-items-center ">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">LEMMON PIE</h5>
+          <button type="button" class="btn-close ms-2" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <img src="./img/lemon-pie.jpeg" alt="" class="img-fluid">
+          <p class="text-center p-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi blanditiis modi nihil architecto culpa rerum cupiditate eos vitae. Voluptatem placeat officiis nulla exercitationem corrupti, pariatur blanditiis porro odio neque explicabo.</p>
+        </div>
+        <div class="modal-footer">
+          <form>
+            <a href="https://github.com/lauratoda" target="_blank">
+                <input class="btn btn-outline-secondary align-self-center m-3" type="button" value="visitar sitio">
+            </a>
+        </form>
+        </div>
+      </div>
+    </div>
+  </div>
+
+        <div class="trabajos1">
+            <img src="./img/CVBatman.png"  alt="CV-BATMAN" class="img-fluid" data-bs-toggle="modal" data-bs-target="#exampleModal2">
+            <p class="text-center fs-4 fw-bold">CV-BATMAN</p>
+        </div>
+        <!-- Modal -->
+  <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content d-flex flex-column justify-content-center align-items-center ">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">CV-BATMAN</h5>
+          <button type="button" class="btn-close ms-2" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <img src="./img/CVBatman.png" alt="" class="img-fluid">
+          <p class="text-center p-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi blanditiis modi nihil architecto culpa rerum cupiditate eos vitae. Voluptatem placeat officiis nulla exercitationem corrupti, pariatur blanditiis porro odio neque explicabo.</p>
+        </div>
+        <div class="modal-footer">
+          <form>
+            <a href="https://github.com/lauratoda" target="_blank">
+                <input class="btn btn-outline-secondary align-self-center m-3" type="button" value="visitar sitio">
+            </a>
+        </form>
+        </div>
+      </div>
+    </div>
+  </div>
+        <div class="trabajos2">
+            <img src="./img/super.png" alt="superheroes" class="img-fluid" data-bs-toggle="modal" data-bs-target="#exampleModal3">
+            <p class="text-center fs-4 fw-bold">SÚPERHEROES</p>
+        </div>
+        <!-- Modal -->
+  <div class="modal fade" id="exampleModal3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content d-flex flex-column justify-content-center align-items-center ">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">SUPER</h5>
+          <button type="button" class="btn-close ms-2" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <img src="./img/super.png" alt="" class="img-fluid">
+          <p class="text-center p-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi blanditiis modi nihil architecto culpa rerum cupiditate eos vitae. Voluptatem placeat officiis nulla exercitationem corrupti, pariatur blanditiis porro odio neque explicabo.</p>
+        </div>
+        <div class="modal-footer">
+          <form>
+            <a href="https://github.com/lauratoda" target="_blank">
+                <input class="btn btn-outline-secondary align-self-center m-3" type="button" value="visitar sitio">
+            </a>
+        </form>
+        </div>
+      </div>
+    </div>
+  </div>
+        <div class="trabajos3">
+            <img src="./img/petshop.jpeg" alt="petshop" class="img-fluid" data-bs-toggle="modal" data-bs-target="#exampleModal4">
+            <p class="text-center fs-4 fw-bold">PETSHOP</p>
+        </div>
+        <!-- Modal -->
+  <div class="modal fade" id="exampleModal4" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content d-flex flex-column justify-content-center align-items-center ">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">PETSHOP</h5>
+          <button type="button" class="btn-close ms-2" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <img src="./img/petshop.jpeg" alt="" class="img-fluid">
+          <p class="text-center p-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi blanditiis modi nihil architecto culpa rerum cupiditate eos vitae. Voluptatem placeat officiis nulla exercitationem corrupti, pariatur blanditiis porro odio neque explicabo.</p>
+        </div>
+        <div class="modal-footer">
+          <form>
+            <a href="https://github.com/lauratoda" target="_blank">
+                <input class="btn btn-outline-secondary align-self-center m-3" type="button" value="visitar sitio">
+            </a>
+        </form>
+        </div>
+      </div>
+    </div>
+  </div>
+        <div class="trabajos4">
+            <img src="./img/piza.jpeg" alt="pizzeria" class="img-fluid" data-bs-toggle="modal" data-bs-target="#exampleModal5">
+            <p class="text-center fs-4 fw-bold">PIZZA</p>
+        </div>
+        <!-- Modal -->
+  <div class="modal fade" id="exampleModal5" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content d-flex flex-column justify-content-center align-items-center ">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">PIZZERIA</h5>
+          <button type="button" class="btn-close ms-2" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <img src="./img/piza.jpeg" alt="" class="img-fluid">
+          <p class="text-center p-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi blanditiis modi nihil architecto culpa rerum cupiditate eos vitae. Voluptatem placeat officiis nulla exercitationem corrupti, pariatur blanditiis porro odio neque explicabo.</p>
+        </div>
+        <div class="modal-footer">
+          <form>
+            <a href="https://github.com/lauratoda" target="_blank">
+                <input class="btn btn-outline-secondary align-self-center m-3" type="button" value="visitar sitio">
+            </a>
+        </form>
+        </div>
+      </div>
+    </div>
+  </div>
+        <div class="trabajos5">
+            <img src="./img/gameshop.jpeg" alt="gameshop" class="img-fluid" data-bs-toggle="modal" data-bs-target="#exampleModal6">
+            <p class="text-center fs-4 fw-bold">GAME SHOP</p>
+        </div>
+        <!-- Modal -->
+  <div class="modal fade" id="exampleModal6" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content d-flex flex-column justify-content-center align-items-center ">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">GAME SHOP</h5>
+          <button type="button" class="btn-close ms-2" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <img src="./img/gameshop.jpeg" alt="" class="img-fluid">
+          <p class="text-center p-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi blanditiis modi nihil architecto culpa rerum cupiditate eos vitae. Voluptatem placeat officiis nulla exercitationem corrupti, pariatur blanditiis porro odio neque explicabo.</p>
+        </div>
+        <div class="modal-footer">
+          <form>
+            <a href="https://github.com/lauratoda" target="_blank">
+                <input class="btn btn-outline-secondary align-self-center m-3" type="button" value="visitar sitio">
+            </a>
+        </form>
+        </div>
+      </div>
+    </div>
+  </div>
+        </div>      
+
+
+    <section class="p-3 bg-secondary text-white bg-opacity-25 d-flex flex-column">
+        <h2 class="text-center fs-1 fw-bold pt-5" id="simple-list-item-2">SOBRE MI</h2>
+        <div class="star">
+            <hr class="m-3" width="100px" size="10px" color="white"/>
+            <i class="fa-solid fa-star fs-4"></i>
+            <hr class="m-3" width="100px" size="10px" color="white"/>
+        </div>
+        <p class="text-center fw-bold p-4">Soy Laura, tengo 37 años, soy mamá, estudié Licenciatura en Turismo y trabajo por cuenta propia. Hoy estudio programación y destoy desarrollando habilidades en Frontend, tengo conocimientos en Html, CSS, Boostrap, y proximamente mucho mas... este es un portfolio hecho con las herramientas adquiridas hasta el momento. Soy entusiasta y tengo muchas ganas de seguir aprendiendo... este viaje recién empieza!</p>
+        <button type="button" class="btn btn-outline-secondary align-self-center m-3"><i class="fa-solid fa-download"></i> Descargar CV </button>
+    </section>
+    <section>
+        <h2 class="text-center fs-1 fw-bold pt-5" id="simple-list-item-3">CONTACTAME</h2>
+        <div class="star">
+            <hr class="m-3" width="100px" size="10px" color="black"/>
+            <i class="fa-solid fa-star fs-4 text-secondary"></i>
+            <hr class="m-3" width="100px" size="10px" color="black"/>
+        </div> 
+        <div class="formulario m-5 d-flex flex-column">
+            <div class="mb-3">
+                <label for="exampleFormControlInput1" class="form-label">Nombre completo</label>
+                <input type="text" class="form-control" id="exampleFormControlInput1">
+              </div>
+            <div class="mb-3">
+                <label for="exampleFormControlInput1" class="form-label">Email</label>
+                <input type="email" class="form-control" id="exampleFormControlInput1">
+              </div>
+              <div class="mb-3">
+                <label for="exampleFormControlInput1" class="form-label">Número de teléfono</label>
+                <input type="text" class="form-control" id="exampleFormControlInput1">
+              </div>
+              <div class="mb-3">
+                <label for="exampleFormControlTextarea1" class="form-label">Mensaje</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+              </div>
+              <button type="button" class="btn btn-outline-secondary align-self-center m-3"> Enviar </button>    
+        </div>   
+      </section>
+    <footer >
+        <div class="base p-3 bg-secondary text-white bg-opacity-75 d-flex flex-column align-items-center">
+          <div class=" uno d-flex flex-column align-items-center p-3">
+              <h4 class="fw-bold p-4">MI LUGAR</h4>
+              <p class="fw-bolder">MAR DEL PLATA</p>
+              <p class="fw-bolder">ARGENTINA</p>
+          </div>
+          <div  class="dos d-flex flex-column align-items-center p-3">
+              <h4 class="fw-bold pt-4 pb-4">SIGAMOS CONECTADOS</h4>
+              <div>
+                  <a href="https://www.facebook.com/melany.toda"><i class="fa-brands fa-facebook-f pe-3 fs-4 text-white"></i></a>
+                  <a href="https://www.instagram.com/todamelany/"><i class="fa-brands fa-instagram pe-3 fs-4 text-white"></i></a>
+                  <a href="https://www.linkedin.com/in/laura-toda-830923211/"><i class="fa-brands fa-linkedin-in pe-3 fs-4 text-white"></i></a>             
+                  <a href="https://github.com/lauratoda"><i class="fa-brands fa-github pe-3 fs-4 text-white"></i></a>
+                  
+              </div>
+          </div>
+          <div class="tres d-flex flex-column align-items-center p-3">
+              <h4 class="fw-bold p-4">SOBRE MI</h4>
+              <p class="text-center fw-bolder">Soy una persona creativa y con ansias de aprender. Tengo conocimientos en HTML, CSS y Boostrap.</p>
+          </div>         
+        </div>
+        <div class="p-3 bg-secondary text-white">
+            <p class="text-center">copyright <i class="fa-solid fa-copyright"></i> Mi Sitio 2022</p>
+        </div>
+    </footer>
+   </main>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
